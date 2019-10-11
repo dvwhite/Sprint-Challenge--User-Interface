@@ -94,8 +94,8 @@ nav {
 }
 
 .nav-items {
-    text-align: left;
-    padding: 0 6%;
+    text-align: center;
+    padding: 0 2.66vw;
 }
 
 .links {
@@ -110,14 +110,14 @@ nav {
     color: black;
 }
 
-.services-header {
+.marketing-header {
 	display: flex;
 	align-items: stretch;
 }
 
-.services-header-img {
+.marketing-header img {
 	max-width: 100%;
-	margin: 10% 0 2% 0;
+	margin: 4% 0 3% 0;
 }
 
 .top-content {
