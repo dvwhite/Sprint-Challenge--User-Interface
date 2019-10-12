@@ -133,7 +133,7 @@ nav {
     padding-bottom: 20px;  
 }
 
-.header-content, .bottom-text-content {
+.header-content {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
@@ -141,13 +141,14 @@ nav {
     border-bottom: 1px dashed black;
 }
 
-.centered-text-container {
-    width: 97%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.bottom-text-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
 }
 
-.centered-text-bottom {
+.centered-text-container {
     width: 97%;
     padding: 0 1%;
     padding-bottom: 20px;  
