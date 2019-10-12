@@ -110,12 +110,11 @@ nav {
     color: black;
 }
 
-.marketing-header {
-	display: flex;
-	align-items: stretch;
+.about-header {
+    border-bottom: 1px dashed black;
 }
 
-.marketing-header img {
+.marketing-header img, .about-header img {
 	max-width: 100%;
 	margin: 4% 0 3% 0;
 }
@@ -162,7 +161,7 @@ nav {
 }
 
 .middle-content .boxes .box:nth-child(1) {
-        background-color: teal;
+    background-color: teal;
 }
 
 .middle-content .boxes .box:nth-child(2) {
