@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  _David White_: I would describe semantic html as using specific tags such as `<section>` to facilitate accessibility, to make it easier and better when using screen readers to read the page, and also to make the html more easily understandable to other developers.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+  _David White_: The two main differences are that: 
+    1) An inline elements takes up as much space as needed for the content, where as a block element takes us as much space as available/specified by the styling
+    2) A block element element occupies it's own line, and won't sit adjacent to other html elements, whereas in contast, an inline element will sit adjacent to other inline elements in the same div
+
 3. What are the 4 areas of the box model?
+ 
+  _David White_: Content > Padding > Border > Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  _David White_: The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+  _David White_: git allows developers to work as a team by collaborating on files in a distributed, instead of a centralized way. By distributed, I mean that each developer can have his/her own copy of a file or project, and can merge the distributed pieces together later. The alternative is checking out a file for editing and during that time no one else can make any changes, and you have to make sure to check it back in or no one else can work on that file. git also have version history capabilities, letting you track and view changes over time in a log and other graphs. git lets you tag releases and supports multiple workflows, such as feature-branching, forking, "Git Flow", and "Lambda Git Flow".
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
